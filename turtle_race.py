@@ -18,7 +18,7 @@ def get_number_of_racers():
 		if 2 <= racers <= 10:
 			return racers
 		else:
-			print('Number not in range 2-10... Try Again!')
+			print('Number not in range[2-10]... Try Again!')
 
 def race(colors):
 	turtles = create_turtles(colors)
